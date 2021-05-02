@@ -12,8 +12,6 @@ Index the array from 0...6. The number on each cloud is its index in the list so
 
 ## Function Description
 
-Complete the jumpingOnClouds function in the editor below.
-
 jumpingOnClouds has the following parameter(s):
 
 int c[n]: an array of binary integers
@@ -38,7 +36,7 @@ Print the minimum number of jumps needed to win the game.
 
 ## Sample Input 0
 
-7
+7 <br>
 0 0 1 0 0 1 0
 
 ## Sample Output 0
