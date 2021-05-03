@@ -47,7 +47,7 @@ class JumpingOnCloudsTest extends TestCase {
         $this->assertEquals(1, $jumpsResult);
     }
 
-    /* public function test_game_with_7_clouds_two_thunderheads_with_double_jump()
+    public function test_game_with_7_clouds_two_thunderheads_with_double_jump()
     {
         $game = new JumpingOnClouds;
         $c = [0,1,0,0,0,1,0];
@@ -55,9 +55,9 @@ class JumpingOnCloudsTest extends TestCase {
         $jumpsResult = $game->jumpingOnClouds($c);
 
         $this->assertEquals(3, $jumpsResult);
-    } */
+    }
 
-    /* public function test_game_with_10_clouds_3_thunderheads()
+    public function test_game_with_10_clouds_3_thunderheads()
     {
         $game = new JumpingOnClouds;
         $c = [0,1,0,0,0,1,0,0,1,0];
@@ -65,9 +65,9 @@ class JumpingOnCloudsTest extends TestCase {
         $jumpsResult = $game->jumpingOnClouds($c);
 
         $this->assertEquals(5, $jumpsResult);
-    } */
+    }
 
-    /* public function test_game_with_20_clouds()
+    public function test_game_with_20_clouds()
     {
         $game = new JumpingOnClouds;
         $c = [0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,0,0];
@@ -75,6 +75,6 @@ class JumpingOnCloudsTest extends TestCase {
         $jumpsResult = $game->jumpingOnClouds($c);
 
         $this->assertEquals(11, $jumpsResult);
-    } */
+    }
 
 }
