@@ -67,6 +67,16 @@ class JumpingOnCloudsTest extends TestCase {
         $this->assertEquals(5, $jumpsResult);
     }
 
+    public function test_game_with_6_clouds_2_thunderheads()
+    {
+        $game = new JumpingOnClouds;
+        $c = [0,0,0,1,0,0];
+        
+        $jumpsResult = $game->jumpingOnClouds($c);
+
+        $this->assertEquals(3, $jumpsResult);
+    }
+
     public function test_game_with_20_clouds()
     {
         $game = new JumpingOnClouds;
