@@ -25,6 +25,11 @@ class JumpingOnClouds {
                 continue;
             }
 
+            if($i == (count($clouds) - 3) || $i == (count($clouds) - 2)) {
+                $jumpsNumb++;
+                break;
+            }
+
             if($clouds[$i] == 0 && $clouds[($i + 1)] == 0 && $clouds[($i + 2)] == 0) {
                 $jumpsNumb++;
                 $i += 1;
